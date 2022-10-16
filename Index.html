@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Erasmus+</title>
+    </head>
+
+<body class="background">
+   <header>
+<div class="menu_bar">
+    <ul id="menu" id="menuList">
+        <li class="active" ><a href="Index.html"><i class="fa fa-home" aria-hidden="true"></i>   Home</i></a></li>
+         <li>
+            <a href="#">Info<i class="fas fa-caret-down"></i></a>
+        <div class="dropdown_menu">
+           <ul>
+                <li><a href="general info.html">General Info</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="#">Calendar & Activities</a></li>
+           </ul>
+        </div>
+    </li>    
+    <li><a href="partners.html">Partners</a></li>
+    <li><a href="#">Meetings    <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown_menu">
+            <ul>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+            </ul>
+         </div>
+    </li>
+    <li><a href="#">Results   <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown_menu">
+            <ul>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+            </ul>
+         </div>
+    </li>
+    <li><img class="menu_phone" src="photo/menu.png" onclick="togglemenu()"></li>
+    </ul>
+</div>    
+<br><br><img class="banner" src="photo/header.png">
+</header>
+    
+<div class="row">
+     <div class="column">
+            <div class="box">
+                <p class="text"><br>General Info</p>
+                      <br><br>
+                <div class="foto">
+                <img src="photo/inf.jpg" width="280  ", height="100px",>
+                </div> 
+                <ul class="text">
+                   <li>Durată: 24 mounth</li>
+                   <li>Start date:</li>
+                   <li>End date:</li>
+                 </ul>
+            </div>
+     </div>
+    <div class="column">
+        <div class="box_1">
+            <p class="text"><br>General Info</p>
+                  <br><br>
+                  <div class="text_1"><p>Cei 30 de elevi vor participa la 90 de ore de practică la firmele IT partenere:
+
+                    •	L. Lazarou CTC - Cipru
+                    •	PAQ – EQUIPAMENTO DE ESCRITORIOS, LDA - Portugalia
+                    
+                    Vor realiza un stagiu de practică de 90h, cu Acord de Formare în tematica Graficii digitale-realizarea elementelor de Identitate vizuală pentru o companie sau instituție.
+                </div>
+                </p><img class="photo" src="photo/sigla.png" >
+                    </div>
+            
+        </div>
+        <div class="column"> 
+            <div class="b">
+                <div class="box_3">
+                    <div class="text"><br>Partners</div>
+                </div>
+            </div> 
+        </div>
+    </div>    
+</div>  
+
+<script>
+
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemenu(){
+        if(menuList.style.maxHeight=="0px")
+        {
+            menuList.style.maxHeight = "130px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+ 
+     <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="https://www.facebook.com/profile.php?id=100086181805098"><i class="fa-brands fa-facebook"></i></a>
+                        <li class="social-items"><a href="#"><i class="fa-duotone fa-paper-plane-top"></i></a>
+                 </ul>
+            </div> 
+                 <div class="quick-links">
+                    <ul>
+                        <li class="quick-items"><a href="#">Erasmus+ Project - Erasmus 2022-1-RO 01-KA122-VET-0000 70069</a></li>
+                    </ul>
+                </div>
+         </div>
+         <div class="outer-footer">
+            Copyright &copy; All Rights Reserved
+         </div>
+     </footer>  
+</body>   
+ </html>
