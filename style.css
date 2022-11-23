@@ -408,7 +408,7 @@ body{
     padding-top: 3px;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:900px){
 
     /* .menu_bar ul{
         width: 100%;
@@ -458,42 +458,68 @@ body{
         width: 290px;
     }
     .z{
-        width: 297px;
+        width: 100%;
         padding-left: 10px;
-        padding-right: 25px;
+       
     }
     .footer{
-        width: 290px;
+        width: 100%;
     }
     .inner-footer{
-        width: 290px;
+        width: 100%;
         text-align: center;
     }
     .outer-footer{
-        width: 290px;
+        width: 100%;
         text-align: center;
     }
     .quick-items{
         width: 290px;
+        text-align: center;
+    }
+    .quick-links{
+        text-align: center;
     }
     .banner{
-        width: 290px;
+        width: 100%;
         padding-top: 167px;
    }
-    .beanner_1{
-        padding-top: 204px;
-    }
+  
     .canda{
-        width: 290px;
+        width: 100%;
         font-size: 10px;
     }
     .container_1{
-        width: 290px;
-        padding-right: 25px;
+        width: 100%;
+        
     }
     .line{
-        width: 290px;
-        padding-right: 30px;
+        width: 100%;
+        
+    }
+    .obj{
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        align-items: center;
+
+    }
+    .obj_1{
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+
+    }
+    .obj_2{
+
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
     }
     .text_1{
         width: 290px;
@@ -502,103 +528,143 @@ body{
         font-size: 15px;
     }
     .beanner_2{
-        width: 290px;
+        width: 100%;
         height: auto;
     }
 
     .row{
-        width: 200px;
+        width: 100%;
         padding-left: 0px;
         padding-bottom: 0px;
+        margin: 0%;
     }
      .column{
         padding-top: 20px;
-        width: 295px;
+        width: 100%;
         padding-left: 0px;
+        margin: 0%;
     }
     .column_x{
-        width: 295px;
+        width: 100%;
         padding-left: 0px;
         padding-top: 10px;
+        margin: 0%;
         
     }
     .column_y{  
-        width: 295px;
+        width: 100%;
         padding-left: 0px;
         padding-top: 220px;
+        margin: 0%;
 
     }
    .column_z{
-    width: 295px;
-        padding-left: 0px;
+        width: 100%;
         padding-top: 80px;
+        margin: 0%;
 
    }
     .box{
-        width: 290px;
+        width: 100%;
         margin: 0px;
         display: block;
         background-color: beige;
         height: 300px;
-        border-radius: 30px;  
+        border-radius: 30px; 
+        padding-left: 10px;
+       
+        
         
     }
     .box_2{
-        width: 290px;
+        width:100%;
         margin: 0px;
         display: block;
         border-radius: 30px; 
-        height: 300px;
+        height: 100%;
+        padding-left: 10px;
         
     }
     .box_3{
-        width: 290px;
+        width: 100%;
         margin: 0px;
         display: block;
-        height: 300px;
+        height: 100%;
         border-radius: 30px;
+        align-self: center;
+        padding-left: 10px;
+        padding-bottom: 20px;
     }
     .text{
-        width: 290px;
-        padding-left: auto;
+        width: 100%;
+        padding-left: 10px;
+        margin: 0%;
     }
     .text_1{
-        width: 300px;
-        padding-right: 26px;
+        width: 100%;
+        padding-left: 10px;
+        margin: 0%;
     }
     .foto{
         width: 250px;
     }
     .box_1{
-        width: 290px;
+        width: 100%;
         display: block;
         height: 600px;
         border-radius: 20px;
         margin: 0px;
+        padding-left: 10px;
     }
     .b{
-        width: 290px;
-        padding-left: 0px;
+        width: 100%;
+        padding-left: 10px;
+        align-self: center;
     }
     
     
     .photo{
         padding-left: 0px;  
-        width: 290px;
+        width: 100%;
+       
     }
     .text_part{
-        width: 290px;
-        padding-left: 0px;
+        width: 100%;
+        padding-left: 10px;
     }
     .text_rez{
        
-        width: 290px;
+        width: 100%;
+        padding-left: 10px;
     }
+    .banner{
+       width: 100% ;
+        padding-top: 0%;
+        margin: 0%;
+    }
+    .beanner_1{
+        width: 100%;
+        padding-top: 0%;
+    }
+    .beanner_2{
+        width: 100%;
+    }
+    .galleryimg{
+        margin: 0;
+        padding-top: 0%;
+    }
+
+    .img1{
+        width: 100%;
+        margin: 0px;
+        align-items: center;
+        }
+    
 }
-@media (max-width:800px){
+@media (max-width:900px){
      nav{ 
        position: relative; 
-       width: 290px;
+       width: 100%;
      } 
     .navbar .bx-menu{
       display: block;
@@ -696,7 +762,7 @@ body{
         transform: rotate(90deg);
       }
   }
-  @media (max-width:370px){
+  @media (max-width:800px){
     nav .navbar .nav-links{
     max-width: 100%;
   } 

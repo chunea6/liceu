@@ -3,65 +3,89 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" type="x-icon" href="photo/sigla.png">
+        <link rel="stylesheet" href="style.menu.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         <title>Erasmus+</title>
     </head>
 
-<body background="photo/background.jpg" width="100%" height="100%">
+<body class="background">
    <header>
-<div class="menu_bar">
-    <ul id="menu">
-        <li class="active" ><a href="Index.html"><i class="fa fa-home" aria-hidden="true"></i>   Home</i></a></li>
-         <li>
-            <a href="#">Info   <i class="fas fa-caret-down"></i></a>
-        <div class="dropdown_menu">
-           <ul>
-                <li><a href="general info.html">General Info</a></li>
-                <li><a href="objectives.html">Objectives</a></li>
-                <li><a href="#">Calendar & Activities</a></li>
-           </ul>
+    <nav>
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo"><a href="#">fewrfgv</a></div>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name">ERASMUS +</span>
+              <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+              <li><iconify-icon icon="bx:home" style="color: white;"></iconify-icon><a href="index_menu.html">Home</a></li>
+              <li>
+                <a href="#">Info</a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="general info.html">General Info</a></li>
+                  <li><a href="objectives.html">Objectives</a></li>
+                  <li><a href="calendar.html">Calendar & Activities</a></li>
+                  <!-- <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span> -->
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Neumorphism</a></li>
+                      <li><a href="#">Pre-loader</a></li>
+                      <li><a href="#">Glassmorphism</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="partners.html">Partners</a>
+                <!-- <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Dynamic Clock</a></li>
+                  <li><a href="#">Form Validation</a></li>
+                  <li><a href="#">Card Slider</a></li>
+                  <li><a href="#">Complete Website</a></li>
+                </ul> -->
+              </li>
+              <li><a href="#">Meetings</a></li>
+              <li><a href="#">Results</a></li>
+            </ul>
+          </div>
+          <div class="search-box">
+            <i class='bx bx-search'></i>
+            <div class="input-box">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
         </div>
-    </li>    
-    <li><a href="partners.html">Partners</a></li>
-    <li><a href="#">Meetings    <i class="fas fa-caret-down"></i></a>
-        <div class="dropdown_menu">
-            <ul>
-             <li><a href="#"></a></li>
-             <li><a href="#"></a></li>
-             <li><a href="#"></a></li>
-            </ul>
-         </div>
-    </li>
-    <li><a href="#">Results   <i class="fas fa-caret-down"></i></a>
-        <div class="dropdown_menu">
-            <ul>
-             <li><a href="#"></a></li>
-             <li><a href="#"></a></li>
-             <li><a href="#"></a></li>
-            </ul>
-         </div>
-    </li>
-    </ul>
-</div> 
+      </nav>
+      <script src="script.js"></script>
+    
+
 <img class="beanner_1" src="photo/header2.png">
-<!-- <hr color="black" thickness="100px"> -->
-<div class="container" >
-<div class="line_1">
-    <div class="text_info">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<div class="z">
+    <p> Dorim să oferim elevilor participanți o formare profesională inițială de calitate, care va completa pregătirea teoretică oferită de liceu în domeniul IT cu o latură practic-aplicativă, atractivă la standarde de calitate europeană. Astfel, formarea va defini latura vocațională a profilului, va sprijini elevii în obținerea unui atestat pentru certificarea competențelor profesionale în Informatică  la finalul liceului, va crește calitatea formării profesionale, a orientării lor în carieră și a accesului pe piața muncii din Europa. </p>
+        <p>Cooperarea cu instituții de formare de pe piața internațională a muncii va contribui la dezvoltarea laturii europene a liceului, la creșterea prestigiului lui în țară și străinătate, va asigura recunoașterea europeană a rezultatelor învățării dobândite de participanți.
 
-    Why do we use it?
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-    </div>
-    </div>
-    <div class="text_info">
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-    Why do we use it?
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</div>
+            Proiectul  “ERASMUS+ Experiența europeană pentru viitorul meu”, beneficiar Liceul Teoretic“ Ion Luca”, Vatra Dornei, este un proiect de mobilități VET.
+            </p><hr>
+    
+        <p>Stagiul de practică va avea un impact puternic asupra participanților. Aceștia vor intra în contact cu piața muncii din Europa, vor dezvolta aptitudini cheie și profesionale în domeniul de formare care vor fi certificate cu instrumente europene, Europass Mobility. 
+            Pe termen mediu și lung, beneficiarii vor avea reușite școlare, se vor implica mai mult în activități
+            extra/curiculare, vor fi mai bine pregătiți pentru inserție profesională sau începerea unei afaceri. 
+            Proiectul va deschide cooperarea liceului cu piața muncii din Europa, va contribui la îmbunățățirea calității formării profesionale inițiale.             
+        </p><hr>
+        <p>Mobilități: 2 fluxuri : <li>Flux 1: 15 elevi selectați în urma unui concurs din clasele a X-a A, a XI-a A șia XI-a B  în Paphos Cyprus;
+            </li><li>Flux 2: 15 elevi selectați în urma unui concurs din clasele a X-a A, a XI-a A șia XI-a B, Barcelos Portugalia; </li>
+            Acord de formare în tematica graficii digitale - realizarea elementelor de identitate vizuală pentru o companie.
+            Publicul țintă - 30 elevi, liceu, profil real, specializarea matematică-informatică, clasele 10-11, vor avea o primă experiență de practică în firme IT europene, vor dobândi abilități specifice locului de muncă, vor învăța practic de la specialiști și vor dobândi competențe necesare unui viitor profesionist IT cu calificare medie. </p>
 </div>
     <footer class="footer">
     <div class="inner-footer">
