@@ -610,11 +610,18 @@ nav .navbar .links li .sub-menu a:hover{
     font-size: 20px;
     
 }
+.or{ text-align: justify;
+    font-size: 20px;
+}
+
 .preg1{
     text-align: justify;
     padding-left: 70px;
     padding-right: 30px;
     font-size: 20px;
+}
+.preg2{
+    padding-top: 350px;
 }
 
 .blink {
@@ -627,12 +634,15 @@ nav .navbar .links li .sub-menu a:hover{
             opacity: 0;
         }
     }
+    .ora{
+    visibility: hidden;
+}
     .body{
         padding: 0;
         margin: 0;
         overflow: hidden;
         width: 100%;
-        height: 100%;
+        height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1666,12 +1676,33 @@ nav .navbar .links li .sub-menu a:hover{
         height: 70px;  
         visibility: visible; 
     }
+    .blink {
+        animation: blinker 2s linear infinite;
+        color: red;
+        font-family: sans-serif;
+    }
+ @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    .or{ visibility: hidden;
+    }
+    .ora{
+        text-align: justify;
+        padding-left: 35px;
+        visibility: visible;
+        padding-bottom: 45px;
+    }
+    .preg2{
+        padding-top: 400px;
+    }
     .body{
         padding: 0;
         margin: 0;
         overflow: hidden;
         width: 100%;
-        height: 100%;
+        height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1708,7 +1739,7 @@ nav .navbar .links li .sub-menu a:hover{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 30px 0 30px;
+        margin: 0 3px 0 3px;
     }
 .img{
     position: relative;
@@ -1814,74 +1845,74 @@ nav .navbar .links li .sub-menu a:hover{
 }
 #slider-span1:target ~ .image-slider #img1,
 #slider-span1:target ~ .image-slider #button-1{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span2:target ~ .image-slider #img2,
 #slider-span2:target ~ .image-slider #button-2{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span3:target ~ .image-slider #img3,
 #slider-span3:target ~ .image-slider #button-3{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span4:target ~ .image-slider #img4,
 #slider-span4:target ~ .image-slider #button-4{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span5:target ~ .image-slider #img5,
 #slider-span5:target ~ .image-slider #button-5{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span6:target ~ .image-slider #img6,
 #slider-span6:target ~ .image-slider #button-6{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span7:target ~ .image-slider #img7,
 #slider-span7:target ~ .image-slider #button-7{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span8:target ~ .image-slider #img8,
 #slider-span8:target ~ .image-slider #button-8{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span9:target ~ .image-slider #img9,
 #slider-span9:target ~ .image-slider #button-9{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span10:target ~ .image-slider #img10,
 #slider-span10:target ~ .image-slider #button-10{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
@@ -1894,88 +1925,88 @@ nav .navbar .links li .sub-menu a:hover{
 }
 #slider-span12:target ~ .image-slider #img12,
 #slider-span12:target ~ .image-slider #button-12{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span13:target ~ .image-slider #img13,
 #slider-span13:target ~ .image-slider #button-13{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span14:target ~ .image-slider #img14,
 #slider-span14:target ~ .image-slider #button-14{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span15:target ~ .image-slider #img15,
 #slider-span15:target ~ .image-slider #button-15{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span16:target ~ .image-slider #img16,
 #slider-span16:target ~ .image-slider #button-16{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span17:target ~ .image-slider #img17,
 #slider-span17:target ~ .image-slider #button-17{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span18:target ~ .image-slider #img18,
 #slider-span18:target ~ .image-slider #button-18{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span19:target ~ .image-slider #img19,
 #slider-span19:target ~ .image-slider #button-19{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span20:target ~ .image-slider #img20,
 #slider-span20:target ~ .image-slider #button-20{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
-#slider-span1:target ~ .image-slider {left: 330%;}
-#slider-span2:target ~ .image-slider {left: 300%;}
-#slider-span3:target ~ .image-slider {left: 270%;}
-#slider-span4:target ~ .image-slider {left: 240%;}
-#slider-span5:target ~ .image-slider {left: 200%;}
-#slider-span6:target ~ .image-slider {left: 165%;}
-#slider-span7:target ~ .image-slider {left: 130%;}
-#slider-span8:target ~ .image-slider {left: 90%;}
-#slider-span9:target ~ .image-slider {left: 55%;}
-#slider-span10:target ~ .image-slider {left: 20%;}
-#slider-span11:target ~ .image-slider {left: -20%;}
-#slider-span12:target ~ .image-slider {left: -55%;}
-#slider-span13:target ~ .image-slider {left: -90%;}
-#slider-span14:target ~ .image-slider {left: -130%;}
-#slider-span15:target ~ .image-slider {left: -165%;}
-#slider-span16:target ~ .image-slider {left: -200%;}
-#slider-span17:target ~ .image-slider {left: -240%;}
-#slider-span18:target ~ .image-slider {left: -270%;}
-#slider-span19:target ~ .image-slider {left: -300%;}
-#slider-span20:target ~ .image-slider {left: -330%;}
+#slider-span1:target ~ .image-slider {left: 740%;}
+#slider-span2:target ~ .image-slider {left: 670%;}
+#slider-span3:target ~ .image-slider {left: 595%;}
+#slider-span4:target ~ .image-slider {left: 515%;}
+#slider-span5:target ~ .image-slider {left: 435%;}
+#slider-span6:target ~ .image-slider {left: 360%;}
+#slider-span7:target ~ .image-slider {left: 280%;}
+#slider-span8:target ~ .image-slider {left: 200%;}
+#slider-span9:target ~ .image-slider {left: 125%;}
+#slider-span10:target ~ .image-slider {left: 45%;}
+#slider-span11:target ~ .image-slider {left: -45%;}
+#slider-span12:target ~ .image-slider {left: -130%;}
+#slider-span13:target ~ .image-slider {left: -200%;}
+#slider-span14:target ~ .image-slider {left: -280%;}
+#slider-span15:target ~ .image-slider {left: -360%;}
+#slider-span16:target ~ .image-slider {left: -440%;}
+#slider-span17:target ~ .image-slider {left: -515%;}
+#slider-span18:target ~ .image-slider {left: -595%;}
+#slider-span19:target ~ .image-slider {left: -670%;}
+#slider-span20:target ~ .image-slider {left: -740%;}
 
 
  .slide-container-p{
@@ -2005,16 +2036,16 @@ nav .navbar .links li .sub-menu a:hover{
 }
 .imgp{
     position: relative;
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     transition: .5s;
     filter: saturate(10%);
 }
 
 .buttonp{
     position: absolute;
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     transition: .5s;
     background-color: rgba(0, 0, 0, .4);
 }
@@ -2022,148 +2053,148 @@ nav .navbar .links li .sub-menu a:hover{
 
 #slider-span1p:target ~ .image-slider-p #img1,
 #slider-span1p:target ~ .image-slider-p #button-1{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span2p:target ~ .image-slider-p #img2,
 #slider-span2p:target ~ .image-slider-p #button-2{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span3p:target ~ .image-slider-p #img3,
 #slider-span3p:target ~ .image-slider-p #button-3{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span4p:target ~ .image-slider-p #img4,
 #slider-span4p:target ~ .image-slider-p #button-4{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span5p:target ~ .image-slider-p #img5,
 #slider-span5p:target ~ .image-slider-p #button-5{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span6p:target ~ .image-slider-p #img6,
 #slider-span6p:target ~ .image-slider-p #button-6{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span7p:target ~ .image-slider-p #img7,
 #slider-span7p:target ~ .image-slider-p #button-7{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span8p:target ~ .image-slider-p #img8,
 #slider-span8p:target ~ .image-slider-p #button-8{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span9p:target ~ .image-slider-p #img9,
 #slider-span9p:target ~ .image-slider-p #button-9{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span10p:target ~ .image-slider-p #img10,
 #slider-span10p:target ~ .image-slider-p #button-10{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span11p:target ~ .image-slider-p #img11,
 #slider-span11p:target ~ .image-slider-p #button-11{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span12p:target ~ .image-slider-p #img12,
 #slider-span12p:target ~ .image-slider-p #button-12{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span13p:target ~ .image-slider-p #img13,
 #slider-span13p:target ~ .image-slider-p #button-13{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span14p:target ~ .image-slider-p #img14,
 #slider-span14p:target ~ .image-slider-p #button-14{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span15p:target ~ .image-slider-p #img15,
 #slider-span15p:target ~ .image-slider-p #button-15{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span16p:target ~ .image-slider-p #img16,
 #slider-span16p:target ~ .image-slider-p #button-16{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span17p:target ~ .image-slider-p #img17,
 #slider-span17p:target ~ .image-slider-p #button-17{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span18p:target ~ .image-slider-p #img18,
 #slider-span18p:target ~ .image-slider-p #button-18{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 
 #slider-span19p:target ~ .image-slider-p #img19,
 #slider-span19p:target ~ .image-slider-p #button-19{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
 #slider-span20p:target ~ .image-slider-p #img20,
 #slider-span20p:target ~ .image-slider-p #button-20{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
@@ -2174,11 +2205,11 @@ nav .navbar .links li .sub-menu a:hover{
 #slider-span5p:target ~ .image-slider-p {left: 200%;}
 #slider-span6p:target ~ .image-slider-p {left: 165%;}
 #slider-span7p:target ~ .image-slider-p {left: 130%;}
-#slider-span8p:target ~ .image-slider-p {left: 90%;}
+#slider-span8p:target ~ .image-slider-p {left: 70%;}
 #slider-span9p:target ~ .image-slider-p {left: 55%;}
 #slider-span10p:target ~ .image-slider-p {left: 20%;}
-#slider-span11p:target ~ .image-slider-p {left: -20%;}
-#slider-span12p:target ~ .image-slider-p {left: -55%;}
+#slider-span11p:target ~ .image-slider-p {left: -10%;}
+#slider-span12p:target ~ .image-slider-p {left: -100%;}
 #slider-span13p:target ~ .image-slider-p {left: -90%;}
 #slider-span14p:target ~ .image-slider-p {left: -130%;}
 #slider-span15p:target ~ .image-slider-p {left: -165%;}
@@ -2273,14 +2304,14 @@ nav .navbar .links li .sub-menu a:hover{
 }
 
 .cip{
-    width: 40%;
+    width: 100%;
 }
 .por{  
-    width: 55.5%;
-    padding-left: 250px;
-    position: absolute;
-
- }
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+    position: relative;
+}
 }
 
 
