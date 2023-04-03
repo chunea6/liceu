@@ -1887,8 +1887,8 @@ nav .navbar .links li .sub-menu a:hover{
 }
 #slider-span11:target ~ .image-slider #img11,
 #slider-span11:target ~ .image-slider #button-11{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     background-color: transparent;
     filter: saturate(100%);
 }
